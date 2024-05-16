@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.login-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+/* .login-container .form-control {
+    margin-bottom: 20px;
+} */
+.login-container .btn {
+    width: 100%;
+    padding: 10px;
+}
+.login-container .forgot-password {
+    margin-top: 10px;
+}
+
+.rounded-button {
+    border-radius: 20px !important; /* Adjust the value as needed for the desired roundness */
+    width:50% !important;
+    background-color: white !important;
+    border-color: blue !important;
+    color:blue !important;
+}
+
+
+.textbox-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.textbox-input input {
+    width: calc(100% - 40px); 
+    padding-left: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    outline: none;
+}
+
+.textbox-input .icon {
+    z-index: 10;    
+    margin-right: -20px; 
+}
+
+.textbox-input .icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.textbox-input .error {
+    position: absolute;
+    bottom: -35px; 
+    width: 100%;
+}
+
+.select-wrapper {
+    border-radius: 5px; /* Adjust the border radius as needed */
+    overflow: hidden; /* Ensures rounded corners are applied */
+    text-align: center;
+    width:50% !important;
+    align-self: center;
+  }
+
+  .language-select {
+    align-self: center;
+    padding: 4px 4px;
+    border-radius: 20px;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+  }
+
+
+  .link-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: blue; /* Adjust color as needed */
+    text-decoration: underline;
+    cursor: pointer;
+  }

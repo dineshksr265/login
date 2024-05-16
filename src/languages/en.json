@@ -1,0 +1,9 @@
+{
+    "login": "Login",
+    "email_address": "Email Address",
+    "mailError": "Please enter a valid email address.",
+    "pwdError": "Please enter the password",
+    "password": "Password",
+    "forgetPwd": "Forgot Password",
+    "welcome": "Hi, Welcome"
+}
